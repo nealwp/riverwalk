@@ -1,12 +1,16 @@
 {
-  "hostname": "",                                       
-  "port": 0,                                             
-  "username": "",
-  "databaseName": "",
-  "databasePassword": "", 
+  "database": {
+    "hostname": "",                                       
+    "port": 0,                                             
+    "username": "",
+    "databaseName": "",
+    "databasePassword": "" 
+  },
   "aws": {
     "keyID": "",
     "key": "",
     "region": ""
-  }
+  },
+  "typeDirectory": "",
+  "exportMode": "interface"
 }
