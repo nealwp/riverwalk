@@ -1,0 +1,12 @@
+{
+  "hostname": "",                                       
+  "port": 0,                                             
+  "username": "",
+  "databaseName": "",
+  "databasePassword": "", 
+  "aws": {
+    "keyID": "",
+    "key": "",
+    "region": ""
+  }
+}

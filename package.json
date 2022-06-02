@@ -2,6 +2,13 @@
   "name": "riverwalk",
   "version": "1.0.0",
   "description": "Generates TypeScript declaration files from an existing SQL database",
+  "keywords": [
+    "typescript",
+    "sql",
+    "database",
+    "schema",
+    "cli"
+  ],
   "bin": {
     "riverwalk": "./bin/riverwalk"
   },
