@@ -2,6 +2,7 @@
 import { Pool } from 'pg';
 import { RDS } from 'aws-sdk';
 
+// inlining this for now, just to get build to work
 const config = {
   database: {
     hostname: "",                                       
