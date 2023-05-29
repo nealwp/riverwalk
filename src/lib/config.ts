@@ -1,6 +1,24 @@
-import config from '../rwconfig.json';
+// import config from '../rwconfig.json';
 import { Pool } from 'pg';
 import { RDS } from 'aws-sdk';
+
+// inlining this for now, just to get build to work
+const config = {
+  database: {
+    hostname: "",                                       
+    port: 0,                                             
+    username: "",
+    name: "",
+    password: "" 
+  },
+  aws: {
+    accessKeyId: "",
+    secretAccessKey: "",
+    region: ""
+  },
+  typeDirectory: "",
+  exportMode: "interface"
+}
 
 const signer = new RDS.Signer();
 

@@ -1,4 +1,4 @@
 node_modules
 .env
-_types
+dist
 rwconfig.json
